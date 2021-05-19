@@ -5,11 +5,16 @@ import com.xuesran.services.hello.IHelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+
+/**
+ * The type Hello domain.
+ */
 @Component
 public class HelloDomain implements IHelloDomain {
 
     @Autowired
     private IHelloService helloService;
+
 
     @Override
     public void hello() {

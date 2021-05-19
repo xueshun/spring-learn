@@ -33,6 +33,6 @@ public class StrategyDomainImpl implements IStrategyDomain {
         genericCmdDto.setCmdBody(annualCmdBody);
         System.out.println(JsonUtil.obj2Json(genericCmdDto));
 
-        routerTreeService.execute(JsonUtil.obj2Json(""));
+        routerTreeService.execute(JsonUtil.obj2Json(genericCmdDto));
     }
 }

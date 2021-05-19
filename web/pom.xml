@@ -33,5 +33,10 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.aliyun.opensearch</groupId>
+            <artifactId>aliyun-sdk-opensearch</artifactId>
+        </dependency>
+
     </dependencies>
 </project>
